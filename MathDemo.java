@@ -30,5 +30,18 @@ public class MathDemo{
         System.out.println("The area of a circle with a radius of 5.6 is "+area);
         
         
+        double firstRand = Math.random();
+        double secondRand = (int)(firstRand*(7+1));
+        //template for getting a random number from 0 to n
+        //int randInt = (int)(Math.random()*(n+1));
+        
+        //get a random number between 1 and 6
+        int randDie = (int)(Math.random()*6+1);
+        
+        //templete for getting a random number from m to n;
+        //Int randInt = (int)(Math.random()*(n-m+1)+m);
+        //int randInt = (int)(Math.random()*(range+1)+start);
+        System.out.println("A random number "+firstRand);
+        
     }
 }
